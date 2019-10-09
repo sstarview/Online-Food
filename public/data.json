@@ -1,0 +1,134 @@
+[
+  {
+    "foodId": 1,
+    "foodName": "Kofta Khurma",
+    "foodType": "Main Course",
+    "description": "Kofta Khurma Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio culpa veritatis maiores fuga magni a sapiente ullam optio facere quae.",
+    "cuisine": "Indian",
+    "rating": 4.7,
+    "totalUserRating": 127,
+    "price": 120,
+    "foodCategory": "veg"
+  },
+  {
+    "foodId": 2,
+    "foodName": "Kadhai Paneer",
+    "foodType": "Main Course",
+    "description": "Kadhai Paneer Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio culpa veritatis maiores fuga magni a sapiente ullam optio facere quae.",
+    "cuisine": "Indian",
+    "rating": 4.5,
+    "totalUserRating": 150,
+    "price": 150,
+    "foodCategory": "veg"
+  },
+  {
+    "foodId": 3,
+    "foodName": "Chicken Changezi",
+    "foodType": "Main Course",
+    "description": "Chicken Changezi Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio culpa veritatis maiores fuga magni a sapiente ullam optio facere quae.",
+    "cuisine": "Indian",
+    "rating": 4.8,
+    "totalUserRating": 250,
+    "price": 286,
+    "foodCategory": "non-veg"
+  },
+  {
+    "foodId": 4,
+    "foodName": "Chicken 65",
+    "foodType": "Starters",
+    "description": "Chicken 65 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio culpa veritatis maiores fuga magni a sapiente ullam optio facere quae.",
+    "cuisine": "Chinese",
+    "rating": 4.2,
+    "totalUserRating": 112,
+    "price": 140,
+    "foodCategory": "non-veg"
+  },
+  {
+    "foodId": 5,
+    "foodName": "Tomato Soup",
+    "foodType": "Starters",
+    "description": "Tomato Soup Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio culpa veritatis maiores fuga magni a sapiente ullam optio facere quae.",
+    "cuisine": "Indian",
+    "rating": 4.3,
+    "totalUserRating": 500,
+    "price": 90,
+    "foodCategory": "veg"
+  },
+  {
+    "foodId": 6,
+    "foodName": "Sikh Kabab",
+    "foodType": "Starters",
+    "description": "Sikh Kabab Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio culpa veritatis maiores fuga magni a sapiente ullam optio facere quae.",
+    "cuisine": "Arabian",
+    "rating": 4.7,
+    "totalUserRating": 300,
+    "price": 180,
+    "foodCategory": "non-veg"
+  },
+  {
+    "foodId": 7,
+    "foodName": "Dumpling",
+    "foodType": "Deserts",
+    "description": "Dumpling Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio culpa veritatis maiores fuga magni a sapiente ullam optio facere quae.",
+    "cuisine": "Japanese",
+    "rating": 4.3,
+    "totalUserRating": 188,
+    "price": 200,
+    "foodCategory": "veg"
+  },
+  {
+    "foodId": 8,
+    "foodName": "Pastry",
+    "foodType": "Desserts",
+    "description": "Pastry Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio culpa veritatis maiores fuga magni a sapiente ullam optio facere quae.",
+    "cuisine": "Indian",
+    "rating": 3.9,
+    "totalUserRating": 100,
+    "price": 80,
+    "foodCategory": "non-veg"
+  },
+  {
+    "foodId": 9,
+    "foodName": "Choco Lava Cake",
+    "foodType": "Desserts",
+    "description": "Choco Lava Cake Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio culpa veritatis maiores fuga magni a sapiente ullam optio facere quae.",
+    "cuisine": "Indian",
+    "rating": 4.7,
+    "totalUserRating": 300,
+    "price": 100,
+    "foodCategory": "veg"
+  },
+  {
+    "foodId": 10,
+    "foodName": "Bloody Marry",
+    "foodType": "Beverages",
+    "description": "Bloody Marry Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio culpa veritatis maiores fuga magni a sapiente ullam optio facere quae.",
+    "cuisine": "Indian",
+    "rating": 4.7,
+    "totalUserRating": 500,
+    "price": 300,
+    "foodCategory": "veg"
+  },
+  {
+    "foodId": 11,
+    "foodName": "Mojito",
+    "foodType": "Beverages",
+    "description": "Mojito Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio culpa veritatis maiores fuga magni a sapiente ullam optio facere quae.",
+    "cuisine": "Indian",
+    "rating": 4.2,
+    "totalUserRating": 200,
+    "price": 150,
+    "foodCategory": "veg"
+  },
+  {
+    "foodId": 12,
+    "foodName": "Lemon Soda",
+    "foodType": "Beverages",
+    "description": "Lemon Soda Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio culpa veritatis maiores fuga magni a sapiente ullam optio facere quae.",
+    "cuisine": "Indian",
+    "rating": 3.9,
+    "totalUserRating": 100,
+    "price": 60,
+    "foodCategory": "veg"
+  }
+]
