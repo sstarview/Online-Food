@@ -1,7 +1,9 @@
 import React from "react";
+import { connect } from "react-redux";
+import { buyFood } from "../redux/food";
 import data from "{__dirname}/../../public/data.json";
 
-function DishDetail({ match }) {
+function DishDetail({ match }, props) {
   const myData = data.find(data => data.foodName === match.params.name);
   return (
     <section>
@@ -16,9 +18,26 @@ function DishDetail({ match }) {
         <h6>{myData.description}</h6>
         <h5>Note to Chef</h5>
         <input type="text"></input>
+        <button onClick={props.buyFood}>Add to my plate</button>
+        <h1>{props.numOfFoods}</h1>
       </div>
     </section>
   );
 }
 
-export default DishDetail;
+const mapStateToProps = state => {
+  return {
+    numOfFoods: state.numOfFoods
+  };
+};
+
+const mapDispatchToProps = dispatch => {
+  return {
+    buyFood: () => dispatch(buyFood())
+  };
+};
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(DishDetail);
