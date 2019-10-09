@@ -7,7 +7,7 @@ function Beverages() {
 
   return (
     <section>
-      <h1>STARTERS</h1>
+      <h1>BEVERAGES</h1>
       {beverages.map(item => (
         <div key={item.foodId}>
           <Link to={`dishDetail/${item.foodName}`}>

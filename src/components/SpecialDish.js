@@ -6,8 +6,8 @@ function SpecialDish(props) {
   //   const dish
   return (
     <div className="SpecialDish">
-      <h5>{foodName}</h5>
-      <h5>{foodCategory}</h5>
+      <h5 className="SpecialDish-h5">{foodName}</h5>
+      <h5 className="SpecialDish-h52">{foodCategory}</h5>
     </div>
   );
 }

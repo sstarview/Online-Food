@@ -7,7 +7,7 @@ function Desserts() {
 
   return (
     <section>
-      <h1>STARTERS</h1>
+      <h1>DESSERTS</h1>
       {desserts.map(item => (
         <div key={item.foodId}>
           <Link to={`dishDetail/${item.foodName}`}>

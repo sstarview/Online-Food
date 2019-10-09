@@ -4,9 +4,6 @@ import data from "{__dirname}/../../public/data.json";
 import { Link } from "react-router-dom";
 
 function TodaysSpecial() {
-  //const dishData = data;
-  // console.log(dishData);
-
   return (
     // Hardcoded the value for demonstration purpose
     // Can randomly select the dish

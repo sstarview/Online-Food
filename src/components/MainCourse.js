@@ -7,7 +7,7 @@ function MainCourse() {
 
   return (
     <section>
-      <h1>STARTERS</h1>
+      <h1>MAIN COURSE</h1>
       {mainCourse.map(item => (
         <div key={item.foodId}>
           <Link to={`dishDetail/${item.foodName}`}>
